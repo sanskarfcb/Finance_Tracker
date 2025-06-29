@@ -9,7 +9,7 @@ const Navbar = () => {
     localStorage.removeItem('token');
     navigate('/');
   };
-
+//dssd
   return (
     <nav className="navbar">
       <h2>💰 Finance Tracker</h2>

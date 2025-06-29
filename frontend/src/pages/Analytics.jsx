@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import API from '../services/api';
+<<<<<<< HEAD
 import {
   PieChart,
   Pie,
@@ -13,6 +14,9 @@ import {
   YAxis,
   CartesianGrid
 } from 'recharts';
+=======
+import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+>>>>>>> parent of 5d8a774 (Fixed Navbar.jsx casing issue)
 
 const COLORS = ['#00C49F', '#FF8042'];
 

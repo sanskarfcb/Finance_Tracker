@@ -6,9 +6,12 @@ import Register from './pages/Register';
 import ProtectedRoute from './components/ProtectedRoute';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+<<<<<<< HEAD
 import Analytics from './pages/Analytics';
 import Profile from './pages/Profile';
 
+=======
+>>>>>>> parent of 5d8a774 (Fixed Navbar.jsx casing issue)
 
 function App() {
   return (
@@ -17,7 +20,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="/register" element={<Register />} />
-          <Route path="/analytics" element={<ProtectedRoute><Analytics /></ProtectedRoute>} />
           <Route 
             path="/dashboard" 
             element={

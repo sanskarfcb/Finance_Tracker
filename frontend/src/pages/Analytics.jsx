@@ -1,6 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import API from '../services/api';
-import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import {
+  PieChart,
+  Pie,
+  Cell,
+  Tooltip,
+  Legend,
+  ResponsiveContainer
+} from 'recharts';
 
 const COLORS = ['#00C49F', '#FF8042'];
 
@@ -21,7 +28,7 @@ const Analytics = () => {
 
   const pieData = [
     { name: 'Income', value: summary.totalIncome },
-    { name: 'Expense', value: summary.totalExpense },
+    { name: 'Expense', value: summary.totalExpense }
   ];
 
   return (
@@ -40,7 +47,7 @@ const Analytics = () => {
             label
           >
             {pieData.map((entry, index) => (
-              <Cell key={index} fill={COLORS[index % COLORS.length]} />
+              <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
             ))}
           </Pie>
           <Tooltip />

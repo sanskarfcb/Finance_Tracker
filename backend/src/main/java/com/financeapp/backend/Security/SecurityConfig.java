@@ -23,6 +23,9 @@ public class SecurityConfig {
                 .csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers(
+                                "/",
+                                "/index.html",
+                                "/public/**",                 // For any static or public resources
                                 "/api/auth/**",
                                 "/swagger-ui.html",
                                 "/swagger-ui/**",

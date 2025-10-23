@@ -23,7 +23,6 @@ public class SecurityConfig {
                 .csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers(
-                        .requestMatchers(
                                 "/",
                                 "/index.html",
                                 "/static/**",         // If you serve static files like JS, CSS

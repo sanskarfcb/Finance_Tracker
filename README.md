@@ -77,7 +77,13 @@ A secure Spring Boot REST API for managing your personal finances — with robus
 
 ## 🗂️ Project Structure
 
-	Finance_Tracker/ ├── backend/ │   ├── src/ │   └── pom.xml ├── Dockerfile ├── README.md └── frontend/
+	Finance_Tracker/
+	├── backend/ │   
+	├── src/ │   
+		└── pom.xml 
+	├── Dockerfile 
+	├── README.md 
+		└── frontend/
 
 	
 ---

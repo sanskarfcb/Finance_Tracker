@@ -17,16 +17,6 @@ A secure Spring Boot REST API for managing your personal finances — with robus
 
 ---
 
-## 📸 API Screenshots
-
-### Endpoints
-![Transaction/Authentication Endpoints](Images/Screenshot%202025-10-27%20at%201.37.49%20PM.png)
-
-### Schemas
-![API Schemas](Images/Screenshot%202025-10-27%20at%202.00.09%20PM.png)
-
----
-
 ## 📚 API Endpoints
 
 ### 🛡️ Authentication
